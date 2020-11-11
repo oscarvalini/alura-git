@@ -74,7 +74,7 @@ class NegociacaoController {
     apagar() {
 
         this._listaNegociacoes.esvazia();
-        this._mensagem.texto = "Negociações apagadas com sucesso";
+        this._mensagem.texto = "Negociações removidas com sucesso";
     }
 
     ordena(param) {
